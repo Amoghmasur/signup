@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="icon" type="image/png" href="download.png">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="left">
+            <h1>New to the team? Signup now and get your free trail account now</h1>
+            <p>
+                Come dive deep into the world of front-end. want to build yout own signup
+                page now ??? what you waiting for grab the free trail opportunity and
+                 create your own signup page now. 
+            </p>
+        </section>
+        <section class="right">
+            <h2 class="heading">
+                <span>Try it free for 7 days then monthly access $10/month <sub class="sub">Limited offer</sub></span>
+            </h2>
+            <div class="form-group">
+                <form onsubmit ="return validateForm()" id="form">
+                    <div>
+                        <input type="text" class="first-name" placeholder="First Name" id="fname">
+                        <span id="error"></span>
+                    </div>
+                    <div>
+                        <input type="text" class="last-name" placeholder="Last Name" id="lname" >
+                        <span id="error"></span>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email Address" id="email" class="email">
+                        <span id="error"></span>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Password" id="pass" class="password">
+                        <span id="error"></span>
+                    </div>
+                    <button class="btn btn-green">Claim your free trail</button>
+                    <p>By clicking the button, you are agreeing to our <span>TnC</span></p>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
